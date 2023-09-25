@@ -1,19 +1,16 @@
-import { setGreeting } from "./reducers";
+import { setGreeting } from './reducers';
 
-  export const fetchRandomGreeting = () => {
-    return dispatch => {
-      fetch('/api/greetings/random')
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(data => dispatch(setGreeting(data.greeting)))
-        .catch(error => {
-          console.error('Error fetching greeting:', error);
-
-        });
-    };
-  };
-  
+const fetchRandomGreeting = () => (dispatch) => {
+  fetch('/api/greetings/random')
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then((data) => dispatch(setGreeting(data.greeting)))
+    .catch((error) => {
+      throw new Error('Error fetching greeting:', error);
+    });
+};
+export default fetchRandomGreeting;

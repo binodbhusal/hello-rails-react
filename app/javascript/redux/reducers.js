@@ -8,9 +8,10 @@ const greetingSlice = createSlice({
   name: 'greeting',
   initialState,
   reducers: {
-    setGreeting: (state, action) => {
-      state.greeting = action.payload;
-    },
+    setGreeting: (state, action) => ({
+      ...state,
+      greeting: action.payload,
+    }),
   },
 });
 
