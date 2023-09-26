@@ -5,7 +5,7 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
 
 # 📗 Table of Contents
 
@@ -25,13 +25,13 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+
 
 # 📖 [Hello-Rails-React] <a name="about-project"></a>
 
 **[Hello-Rails-React]** This project is to display random greeting message with combination of Rails, React and Redux. The messages are fetched from APi created in rails.
 <p align="center">
-  <img src="https://github.com/binodbhusal/BlogApp/blob/data-model/images/blog_app_erd.png"/>
+
 </p>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -48,14 +48,14 @@
 </details>
 
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 - Random message displays
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Demo -->
+
 
 
 
@@ -97,7 +97,7 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
+
 
 ## 👥 Author <a name="authors"></a>
 
@@ -109,7 +109,7 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -117,7 +117,7 @@ Currently no future feature added.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -127,7 +127,7 @@ Feel free to check the [issues page](https://github.com/binodbhusal/hello-rails-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -135,7 +135,7 @@ If you like this project give it a ⭐️ to keep us motivated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -144,7 +144,7 @@ I would like to thank Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 
